@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #ff9800;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+section h2 {
+    color: #ff9800;
+    margin-bottom: 1rem;
+}
+
+/* Inputs & Buttons */
+input[type="number"] {
+    padding: 0.5rem;
+    width: calc(100% - 1rem);
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+/* Lists */
+ul {
+    padding-left: 1.2rem;
+}
+
+/* Dynamic text */
+#dynamicTextContainer p {
+    background-color: #fff3e0;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Responsive */
+@media(max-width:600px){
+    section{
+        margin: 1rem;
+        padding: 1rem;
+    }
+    header h1{
+        font-size: 2rem;
+    }
+    header p{
+        font-size:1rem;
+    }
+}
